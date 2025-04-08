@@ -56,7 +56,8 @@ class Programa
             Console.WriteLine("Não encontrado");
     }
 
-    static void TestarBusca<T>(IBuscaSequencial<T> buscador, T[] array, T alvo, string nomeTeste)
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"    static void TestarBusca<T>(IBuscaSequencial<T> buscador, T[] array, T alvo, string nomeTeste)
     {
         Console.WriteLine($"\n--- {nomeTeste} ---");
         Console.WriteLine($"Array: [{string.Join(", ", array)}]");
